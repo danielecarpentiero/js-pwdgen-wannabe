@@ -1,2 +1,2 @@
-# js-pwdgen-wannabe
+# Password Generator
 a wannabe password generator using JavaScript.
