@@ -8,6 +8,8 @@ const elementFavNumber = document.getElementById("favNumber");
 elementName.innerHTML = prompt("What's your name?");
 elementSurname.innerHTML = prompt("What's your surname?");
 elementFavColor.innerHTML = prompt("What's your favorite color?");
-elementFavNumber.innerHTML = Math.floor((Math.random()*50)+1);
+elementFavNumber.innerHTML = Math.floor(Math.random() * 50 + 1);
 
-console.log($`elementName` + $`elementSurname` + $`elementFavColor` + $`elementFavNumber`);
+console.log(
+  `${elementName}${elementSurname}${elementFavColor}${elementFavNumber}`
+);
